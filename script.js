@@ -7,6 +7,15 @@ const color = document.querySelector('#color')
 // define more constants and variables here
 
 btn_toggle.onclick = () => {
+  const disbtn = document.getElementById("toggle")
+  
+  if (disbtn.innerHTML === "Display Calculation"){
+    disbtn.innerHTML = "Display Author"
+    author.innerHTML = 630610744 - length.value
+  }else {
+    disbtn.innerHTML = "Display Calculation"
+    author.innerHTML = "630610744 NUTTAPONG BOONSALA"
+  }
   
 }
 
