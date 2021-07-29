@@ -3,7 +3,9 @@ const calculation = document.querySelector("#calculation")
 const btn_toggle = document.querySelector("#toggle");
 const length = document.getElementById('length')
 const color = document.querySelector('#color')
-
+const serchbtn = document.querySelector("#search")
+const resetbtn = document.querySelector("#reset")
+const text = document.querySelector("#text")
 // define more constants and variables here
 
 btn_toggle.onclick = () => {
@@ -19,4 +21,15 @@ btn_toggle.onclick = () => {
   
 }
 
-// more codes for Search and Reset buttons here
+
+serchbtn.onclick = () => {
+
+}
+
+resetbtn.onclick = () => {
+  length.value = ''
+  color.value = "#FFFF00"
+}
+
+
+console.log(p[3])
